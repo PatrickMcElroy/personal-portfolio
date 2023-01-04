@@ -1,71 +1,55 @@
 {
-  "name": "Chetan",
+  "name": "Patrick",
   "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Chetan Verma - curious",
-  "headerTaglineThree": "designer and devloper",
-  "headerTaglineFour": " based in New Delhi, India.",
+  "headerTaglineTwo": "I'm Patrick McElroy",
+  "headerTaglineThree": "creator, learner,",
+  "headerTaglineFour": " and student at the University of Michigan",
   "showBlog": true,
   "darkMode": true,
   "socials": [
     {
       "id": "1",
       "title": "Github",
-      "link": "https://github.com/chetanverma16"
+      "link": "https://github.com/PatrickMcElroy"
     },
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/chetanverma7/"
+      "link": "https://www.linkedin.com/in/pdmcelroy/"
     },
     {
-      "id": "3",
-      "title": "Twitter",
-      "link": "https://twitter.com/realchetanverma"
-    },
-    { "id": "4", "title": "Blog", "link": "https://blog.chetanverma.com/" },
-    { "id": "5", "title": "Email", "link": "mailto:hello@chetanverma.com" }
+      "id": "5",
+      "title": "Email",
+      "link": "mailto:patdmcelroy@gmail.com"
+    }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
-      "description": "Web Design",
+      "title": "RCRD",
+      "description": "IOS App",
       "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "url": "http://chetanverma.com/"
     },
     {
       "id": "2",
-      "title": "Project Two",
-      "description": "Web Development",
+      "title": "Blind Messaging",
+      "description": "Frontend Development",
       "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
       "url": "http://chetanverma.com/"
     },
     {
       "id": "3",
-      "title": "Project Three",
-      "description": "Design",
+      "title": "Agos Artistry",
+      "description": "Clothing Brand",
       "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "url": "http://chetanverma.com/"
     },
     {
       "id": "4",
-      "title": "Project Four",
-      "description": "Marketing",
+      "title": "Asteroids",
+      "description": "Game Development",
       "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "5",
-      "title": "Project Five",
-      "description": "Development",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "6",
-      "title": "Project Six",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
       "url": "http://chetanverma.com/"
     }
   ],
@@ -111,7 +95,9 @@
         "dates": "March 2020 - March 2022",
         "type": "Full Time",
         "position": "Frontend Engineer at X",
-        "bullets": ["Worked on the frontend of a React application"]
+        "bullets": [
+          "Worked on the frontend of a React application"
+        ]
       }
     ],
     "education": {
@@ -119,8 +105,21 @@
       "universityDate": "2016-2020",
       "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
-    "languages": ["Javascript", "HTML5", "CSS", "Python"],
-    "frameworks": ["React", "Typescript", "NodeJs"],
-    "others": ["Figma", "AdobeXD", "AWS"]
+    "languages": [
+      "Javascript",
+      "HTML5",
+      "CSS",
+      "Python"
+    ],
+    "frameworks": [
+      "React",
+      "Typescript",
+      "NodeJs"
+    ],
+    "others": [
+      "Figma",
+      "AdobeXD",
+      "AWS"
+    ]
   }
 }
