@@ -1,9 +1,7 @@
 {
   "name": "Patrick",
-  "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Patrick McElroy –",
-  "headerTaglineThree": "creator, learner, and",
-  "headerTaglineFour": "software developer",
+  "headerTaglineOne": "Hey,",
+  "headerTaglineTwo": "I'm Patrick McElroy",
   "showBlog": true,
   "darkMode": true,
   "socials": [
@@ -20,7 +18,7 @@
     {
       "id": "5",
       "title": "Email",
-      "link": "mailto:patdmcelroy@gmail.com"
+      "link": "mailto:consulting@patrickmcelroy.me"
     }
   ],
   "projects": [
@@ -49,26 +47,26 @@
   "services": [
     {
       "id": "1",
-      "title": "Frontend Design and Development",
-      "description": "I've designed and implemented the front end for all my solo IOS projects, as well as working as the Frontend Developer for a startup ground, Blind, developing a new kind of messaging service."
+      "title": "AI Workflow Design and Implementation",
+      "description": "I specialize in designing and implementing AI automation workflows using agentic programming patterns and reasoning models. Through hands-on experience with LLMs and AI agents, I've developed systems that leverage multi-step reasoning, tool integration, and autonomous decision-making to solve complex business problems."
     },
     {
       "id": "2",
-      "title": "Data Science and AI Design",
-      "description": "Much of my collegiate work has been based in Artifical Intelligence, where I have learned how to design and train Deep Learning and other relevant models for multiple use cases."
+      "title": "Software Engineering Experience",
+      "description": "I have a technical background working on key infrastructure projects, primarily developing in C++ and Python. My work focuses on building scalable, high-performance systems that handle critical business operations and serve many users with reliability and efficiency."
     },
     {
       "id": "3",
       "title": "Business Management",
-      "description": "I earned a business minor through the Ross School of Business at the University of Michigan, and co-own Agos Artistry LLC with my business partner Design Rodgers."
+      "description": "I have experience working closely with product stakeholders to translate business requirements into technical solutions. I earned a business minor through the Ross School of Business at the University of Michigan and have worked with multiple LLCs in various capacities throughout my career."
     },
     {
       "id": "4",
-      "title": "Leadership and Creator Development",
-      "description": "Helped lead Shift Creator Space at the University of Michigan for my final 2 years of college, where I mentored 30+ creators through their own paths to making a final artistic or technological project."
+      "title": "Leadership and Personal Development",
+      "description": "I helped lead Shift Creator Space at the University of Michigan, where I mentored 30+ creators through their own paths to making a final project, including art, businesses, or novel technologies."
     }
   ],
-  "aboutpara": "I am currently a senior Computer Science student at the University of Michigan, planning to work as a Software Engineer at Bloomberg LP next year. In my off time, I enjoy climbing, working out, waterskiing, and reading good fiction.",
+  "aboutpara": "Currently I work at Bloomberg as a software engineer, where I work on core privileging infrastructure for their Enterprise Products. I also lead a group of around 300 engineers in sharing and implementing new best practices in AI automation workflows. I have a passion for building products that help people, and I love to work on projects that combine my interests in technology, design, and business.",
   "resume": {
     "tagline": "👋  I'm a software engineer, product designer, and maker.",
     "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",

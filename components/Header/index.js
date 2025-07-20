@@ -66,12 +66,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
-                  <Button onClick={handleWorkScroll}>Work</Button>
                   <Button onClick={handleAboutScroll}>About</Button>
                   {showResume && (
                     <Button
                       onClick={() =>
-                        window.open("mailto:patdmcelroy@gmail.com")
+                        window.open("mailto:consulting@patrickmcelroy.me")
                       }
                     >
                       Resume
@@ -79,7 +78,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:patdmcelroy@gmail.com")}
+                    onClick={() => window.open("mailto:consulting@patrickmcelroy.me")}
                   >
                     Contact
                   </Button>
@@ -104,7 +103,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:patdmcelroy@gmail.com")}
+                    onClick={() => window.open("mailto:consulting@patrickmcelroy.me")}
                   >
                     Contact
                   </Button>
@@ -131,7 +130,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         </h1>
         {!isBlog ? (
           <div className="flex">
-            <Button onClick={handleWorkScroll}>Work</Button>
             <Button onClick={handleAboutScroll}>About</Button>
             {showResume && (
               <Button
@@ -142,7 +140,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:patdmcelroy@gmail.com")}>
+            <Button onClick={() => window.open("mailto:consulting@patrickmcelroy.me")}>
               Contact
             </Button>
             <Button
@@ -173,7 +171,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:patdmcelroy@gmail.com")}>
+            <Button onClick={() => window.open("mailto:consulting@patrickmcelroy.me")}>
               Contact
             </Button>
             <Button

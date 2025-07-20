@@ -2,7 +2,6 @@ import { useRef } from "react";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
-import WorkCard from "../components/WorkCard";
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
@@ -20,8 +19,6 @@ export default function Home() {
   const aboutRef = useRef();
   const textOne = useRef();
   const textTwo = useRef();
-  const textThree = useRef();
-  const textFour = useRef();
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -42,7 +39,7 @@ export default function Home() {
 
   useIsomorphicLayoutEffect(() => {
     stagger(
-      [textOne.current, textTwo.current, textThree.current, textFour.current],
+      [textOne.current, textTwo.current],
       { y: 40, x: -10, transform: "scale(0.95) skew(10deg)" },
       { y: 0, x: 0, transform: "scale(1)" }
     );
@@ -77,36 +74,9 @@ export default function Home() {
             >
               {data.headerTaglineTwo}
             </h1>
-            <h1
-              ref={textThree}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineThree}
-            </h1>
-            <h1
-              ref={textFour}
-              className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-full laptop:w-4/5"
-            >
-              {data.headerTaglineFour}
-            </h1>
           </div>
 
           <Socials className="mt-2 laptop:mt-5" />
-        </div>
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
-          <h1 className="text-2xl text-bold">Some projects you can check out!</h1>
-
-          <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
-            {data.projects.map((project) => (
-              <WorkCard
-                key={project.id}
-                img={project.imageSrc}
-                name={project.title}
-                description={project.description}
-                onClick={() => window.open(project.url)}
-              />
-            ))}
-          </div>
         </div>
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
